@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridhgelabz.InvoiceGeneratorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-18T05:24:53" hostname="aswin-laptop" time="0.013">
+<testsuite name="com.bridhgelabz.InvoiceGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-18T07:43:24" hostname="aswin-laptop" time="0.002">
   <properties/>
-  <testcase name="givenMultipleRides_ShouldReturnTotalFare" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.008"/>
-  <testcase name="givenLessDistanceOrTime_ShouldReturnMinimumFare" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.0"/>
-  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.0"/>
+  <testcase name="givenMultipleRides_ShouldReturnAverageFare" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
