@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridhgelabz.InvoiceGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-22T05:19:52" hostname="aswin-laptop" time="0.003">
+<testsuite name="com.bridhgelabz.InvoiceGeneratorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-22T06:11:31" hostname="aswin-laptop" time="0.017">
   <properties/>
-  <testcase name="te" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenMultipleRides_ShouldReturnTotalFare" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.009"/>
+  <testcase name="givenLessDistanceOrTime_ShouldReturnMinimumFare" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.004"/>
+  <testcase name="givenMultipleRides_ShouldReturnAverageFare" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="whenGivenIdInvoiceServiceGetsListOfRides_shouldReturnInvoice" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare" classname="com.bridhgelabz.InvoiceGeneratorTest" time="0.0"/>
+  <system-out><![CDATA[Premium
+Premium
+Noraml
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
